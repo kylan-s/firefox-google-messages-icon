@@ -17,7 +17,8 @@ At this point, if you have not already created a profile named "google-messages"
 2. Either update the value of or - if it does not yet exist - create a new boolean key named `taskbar.grouping.useprofile` with the value `true`
 3. Update the value of the key `browser.startup.blankwindow` to false.
 4. Close the current window, and relaunch the newly-created shortcut. You should now see a second Firefox icon on the taskbar.
-5. Right click the new Firefox icon and press "Pin to taskbar"
+5. Right click the new Firefox icon and press "Pin to taskbar".
+6. Right click the newly created taskbar icon, and then right click the item above "Unpin from taskbar" and select "Properties". Here, paste the same command line options that you used for your desktop icon.
 
 ## Create a userChrome.css File
 You should now have a working shortcut either on your desktop or taskbar which launches the chosen website with a new taskbar icon. The following will customize this profile so that there is no URL bar visible.
